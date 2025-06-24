@@ -523,7 +523,7 @@ class _MyHomePageState extends State<MyHomePage> {
               (task) => TaskButton(
                 text: task['name'],
                 onPressed:
-                    _isLoading
+                    _isLoading 
                         ? null
                         : () {
                           final runner = task['runner'];
